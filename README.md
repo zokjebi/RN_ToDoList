@@ -4,6 +4,11 @@ React native 로 ToDoList 클론코딩 연습
 참조 사이트 : https://velog.io/@yyy/React-Native-To-do-list-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
 ---------------------------------------
+앱 실행 화면 [업데이트 예정]
+=============
+
+
+---------------------------------------
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
