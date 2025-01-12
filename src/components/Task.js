@@ -3,13 +3,13 @@ import { images } from '../images';
 
 import { Dimensions, StyleSheet, Button, Text, TextInput, View } from 'react-native';
 
-const Task = ({ text }) => {
+const Task = ({ item, deleteTask }) => {
     return (
       <View style={styles.container}>
         <IconButton type={images.uncompleted} />
-        <Text style={{ fontSize: 20, flex: 1 }}>{text}</Text>
+        <Text style={{ fontSize: 20, flex: 1 }}>{item.text}</Text>
         <IconButton type={images.edit} />
-        <IconButton type={images.delete} />
+        <IconButton type={images.delete} id={item.id} onPressOut={deleteTask} />
       </View>
     );
 };
